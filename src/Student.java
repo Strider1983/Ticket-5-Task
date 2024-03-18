@@ -21,8 +21,8 @@ public class Student {
         result = result * 31 + age + (name == null ? 0: name.hashCode());
         return result;
     }
-    @Override
-    public int hashCode () {
-        return Objects.hash(name, age);
-    }
+    //@Override
+    //public int hashCode () {
+        //return Objects.hash(name, age);
+    //}
 }
